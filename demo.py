@@ -3,7 +3,6 @@
 from time import ctime, sleep
 import os,yaml
 import random
-import random
 
 def timefun_arg(pre="hello"):
     def timefun(func):
@@ -47,6 +46,6 @@ if __name__ == '__main__':
         config=yaml.safe_load(a)
     print(config['database'])
 
-    print(config['database'])
+
 
 
