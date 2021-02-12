@@ -48,4 +48,6 @@ if __name__ == '__main__':
     print(config['database'])
 
 
+    print(config['database'])
+
 
