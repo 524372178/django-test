@@ -44,4 +44,4 @@ if __name__ == '__main__':
     test=os.path.join(os.path.dirname(__file__),'test.yaml')
     with open(test,'r') as a:
         config=yaml.safe_load(a)
-    print(config['database'])
+    print(config['database6'])
