@@ -45,6 +45,5 @@ if __name__ == '__main__':
     with open(test,'r') as a:
         config=yaml.safe_load(a)
     print(config['database'])
-    print(config['database'])
-    print(config['database8'])
+
 
